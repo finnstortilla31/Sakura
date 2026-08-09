@@ -24,8 +24,8 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        state: "♡ ₊ ⁺⋆ watching over the server",     // this is what people actually see
+        type: 0,               // Custom
       },
     ],
   },
@@ -93,8 +93,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#FFB6C1",
+      secondary: "#FF69B4",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
